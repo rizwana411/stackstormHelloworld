@@ -1,6 +1,6 @@
 ---
 name: hello
-pack:hello_rizwana
+pack: hello_rizwana
 runner_type: "python-script"
 description: Print message to standard output.
 enabled: true
