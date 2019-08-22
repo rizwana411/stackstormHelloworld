@@ -6,6 +6,6 @@ class MyEchoAction(Action):
     def run(self, message):
         print(message)
 
-        if message == 'working':
-            return (True, message)
-        return (False, message)
+        if message == 'Rizwana':
+            return (True, "Hello" + message)
+        return (False, "Bye" + message)
